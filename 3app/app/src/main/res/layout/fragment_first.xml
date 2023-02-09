@@ -19,6 +19,32 @@
         app:layout_constraintVertical_bias="0.568"
         tools:text="Concat" />
 
+    <Button
+        android:id="@+id/button_first2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/compare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        tools:text="Compare" />
+
+    <Button
+        android:id="@+id/button_first3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/count"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759"
+        tools:text="Count" />
+
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
@@ -47,13 +73,13 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
+        android:layout_width="346dp"
+        android:layout_height="50dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Full Name"
+        android:text="Output"
         app:layout_constraintBottom_toTopOf="@+id/button_first"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.909" />
